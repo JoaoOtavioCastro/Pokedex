@@ -5,7 +5,9 @@ body {
 	margin: 0;
 	font-family: rubik;
 }
-
+a{
+	text-decoration: none;
+}
 .container {
 	padding: 40px;
 	margin: 0 auto;
@@ -78,7 +80,7 @@ h1 {
 }
 
 .poison {
-	background-color: #98d7a5;
+	background-color: #e8b7ff;
 }
 
 .bug {
@@ -90,7 +92,7 @@ h1 {
 }
 
 .psychic {
-	background-color: #eaeda1;
+	background-color: #ffc7fa;
 }
 
 .flying {
@@ -103,6 +105,13 @@ h1 {
 
 .normal {
 	background-color: #F5F5F5;
+}
+.ghost {
+	background-color: #d0c2dd;
+}
+
+.dark {
+	background-color: #b7b7b8;
 }
 
 .card:hover {
@@ -121,6 +130,8 @@ h1 {
 .card-subtitle {
 	margin-top: 5px;
 	color: #666;
+	font-size: large;
+
 	font-weight: lighter;
 	position: relative;
 	z-index: 2;
